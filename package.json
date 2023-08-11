@@ -1,0 +1,25 @@
+{
+  "name": "mhy_glitch_proxy",
+  "version": "0.1.0",
+  "description": "A Node app built with Fastify to reverse proxy to a mhy_botsdk backend server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.19.2",
+    "@fastify/websocket": "^8.2.0"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://github.com/GLGDLY/mhy_glitch_proxy"
+  },
+  "author": "GLGDLY",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch"
+  ]
+}
